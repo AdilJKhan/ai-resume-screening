@@ -1,9 +1,9 @@
+import os
 import PyPDF2
 import docx2txt
 import gradio as gr
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
 
 def extract_text(file_path):
     if file_path.endswith(".pdf"):
@@ -49,9 +49,8 @@ def match_resumes(job_description, resume_files):
 
     results = []
     for i, score in enumerate(similarities):
-        results.append(
-            f"{resume_files[i].name} — Score: {round(score * 100, 2)}"
-        )
+        filename = os.path.basename(file)
+        results.append(f"{filename} — Score: {score:.2f}")
 
     results.sort(reverse=True)
     return "\n".join(results[:3])
