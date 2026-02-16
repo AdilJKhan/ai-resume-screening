@@ -1,10 +1,14 @@
 ---
 title: AI Resume Screening
-sdk: python
-app_file: main.py
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
 python_version: "3.10"
+app_file: app.py
+pinned: false
 ---
 
-# AI-Powered Resume Screening
+# AI Resume Screening System (Demo)
 
-Semantic resume matching using sentence-transformers.
+This is a lightweight demo version of the AI Resume Screening System.
+The full embedding-based implementation is available in the GitHub repository.
