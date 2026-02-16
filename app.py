@@ -37,7 +37,7 @@ def match_resumes(job_description, files):
     for file in files:
         text = extract_text(file)
         resume_texts.append(text)
-        resume_names.append(os.path.basename(file.name))
+        resume_names.append(os.path.basename(file))
 
     # Combine job + resumes
     documents = [job_description] + resume_texts
