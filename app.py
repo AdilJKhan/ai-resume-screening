@@ -30,30 +30,37 @@ def extract_text_from_txt(file_path):
         return f.read()
 
 
-def match_resumes(job_description, resume_files):
-    resumes_text = []
+def match_resumes(job_description, files):
+    resume_texts = []
+    resume_names = []
 
-    for file in resume_files:
+    for file in files:
         text = extract_text(file)
-        resumes_text.append(text)
+        resume_texts.append(text)
+        resume_names.append(os.path.basename(file.name))
 
-    vectorizer = TfidfVectorizer().fit_transform(
-        [job_description] + resumes_text
-    )
+    # Combine job + resumes
+    documents = [job_description] + resume_texts
 
-    vectors = vectorizer.toarray()
-    job_vector = vectors[0]
-    resume_vectors = vectors[1:]
+    vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1,2))
+    tfidf_matrix = vectorizer.fit_transform(documents)
 
-    similarities = cosine_similarity([job_vector], resume_vectors)[0]
+    job_vector = tfidf_matrix[0]
+    resume_vectors = tfidf_matrix[1:]
+
+    similarities = cosine_similarity(job_vector, resume_vectors)[0]
+
+    # Get top 3 indices
+    top_indices = similarities.argsort()[-3:][::-1]
 
     results = []
-    for i, score in enumerate(similarities):
-        filename = os.path.basename(file)
-        results.append(f"{filename} — Score: {score:.2f}")
+    for idx in top_indices:
+        results.append(
+            f"{resume_names[idx]} — Score: {similarities[idx]:.2f}"
+        )
 
-    results.sort(reverse=True)
-    return "\n".join(results[:3])
+    return "\n".join(results)
+
 
 
 interface = gr.Interface(
