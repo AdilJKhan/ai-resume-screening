@@ -1,0 +1,25 @@
+Senior Backend Engineer (Python)
+
+We are seeking an experienced Backend Engineer to design and build scalable server-side applications and APIs. The ideal candidate has strong expertise in Python and backend system architecture.
+
+Responsibilities:
+
+Design and develop RESTful APIs using Python (Django or FastAPI).
+Build scalable backend services and microservices.
+Design and optimize relational databases (PostgreSQL, MySQL).
+Implement authentication and authorization systems.
+Deploy applications using Docker and cloud platforms (AWS preferred).
+Write unit and integration tests to ensure reliability.
+Collaborate with frontend and DevOps teams.
+
+Requirements:
+3+ years of experience in backend development.
+Strong proficiency in Python.
+Experience with Django, Flask, or FastAPI.
+Knowledge of SQL databases (PostgreSQL/MySQL).
+Familiarity with Docker and cloud infrastructure (AWS).
+Understanding of REST architecture and API security.
+
+Nice to Have:
+Experience with Redis or caching systems.
+Knowledge of CI/CD pipelines.

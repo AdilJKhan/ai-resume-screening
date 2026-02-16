@@ -1,0 +1,57 @@
+PRIYA SHARMA
+Backend Engineer (Python/Django)
+priya.sharma@email.com | (555) 890-1234
+
+SUMMARY
+Backend Engineer with 4 years of experience in Python development, specializing in Django and PostgreSQL. Strong background in building RESTful APIs and scalable backend systems for web applications.
+
+SKILLS
+• Languages: Python, SQL, JavaScript (basic)
+• Frameworks: Django, Django REST Framework, Flask
+• Databases: PostgreSQL, MySQL, SQLite
+• Tools: Docker, Git, Postman, pgAdmin
+• Cloud: AWS (EC2, S3, RDS)
+• Testing: pytest, unittest
+• API Security: JWT, OAuth, CORS
+• Other: Redis (learning), Linux basics
+
+EXPERIENCE
+
+Backend Engineer | WebServices Co. | May 2021 - Present
+• Design and develop RESTful APIs using Django REST Framework
+• Build scalable backend services for customer management platform
+• Design and optimize PostgreSQL database schemas and queries
+• Implement JWT-based authentication and role-based authorization
+• Write unit and integration tests to ensure API reliability
+• Deploy applications using Docker containers on AWS EC2
+• Collaborate with frontend engineers on API design and integration
+• Reduced API response time by 40% through query optimization
+
+Junior Backend Developer | AppDev Solutions | August 2020 - April 2021
+• Developed backend features using Django and PostgreSQL
+• Created REST APIs for mobile application backend
+• Wrote database migrations and optimized slow queries
+• Participated in code reviews and agile sprint planning
+• Deployed applications to AWS using Docker
+
+Python Developer Intern | TechStart | Summer 2020
+• Built API endpoints using Flask framework
+• Learned Django and PostgreSQL fundamentals
+• Assisted in debugging and fixing production issues
+
+EDUCATION
+Bachelor of Technology in Computer Science
+Indian Institute of Technology (IIT) Delhi | 2020
+
+PROJECTS
+Task Management API (Django, PostgreSQL, Docker)
+• Built RESTful API with user authentication and task CRUD operations
+• Deployed on AWS EC2 with PostgreSQL RDS
+
+Blog Platform Backend (Django REST Framework, MySQL)
+• Developed API for blog posts, comments, and user management
+• Implemented caching for improved performance
+
+CERTIFICATIONS
+• Python for Everybody Specialization - University of Michigan (Coursera)
+• AWS Cloud Practitioner

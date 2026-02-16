@@ -1,0 +1,56 @@
+ALEX THOMPSON
+Junior Frontend Developer
+alex.thompson@email.com | (555) 678-9012
+
+OBJECTIVE
+Motivated recent graduate seeking a Frontend Developer position to apply my knowledge of React, JavaScript, and web development. Eager to learn and contribute to a dynamic team.
+
+SKILLS
+• HTML5, CSS3, JavaScript
+• React.js (completed online bootcamp)
+• Git/GitHub
+• Responsive Web Design
+• Basic knowledge of REST APIs
+• Familiar with Bootstrap
+
+EDUCATION
+Bachelor of Science in Information Technology
+Florida State University | Graduated May 2024
+GPA: 3.6/4.0
+
+RELEVANT COURSEWORK
+• Web Development Fundamentals
+• JavaScript Programming
+• User Interface Design
+• Database Systems
+
+INTERNSHIP EXPERIENCE
+
+Web Development Intern | Local Marketing Agency | Summer 2023 (3 months)
+• Assisted in updating company websites using HTML and CSS
+• Learned React basics and built small practice components
+• Fixed minor bugs on client websites
+• Participated in team meetings and learned agile workflow
+
+PROJECTS
+
+Personal Portfolio Website
+• Built using React and CSS to showcase my projects
+• Implemented responsive design for mobile devices
+
+Todo List Application
+• Created simple todo app with React
+• Used local storage to save tasks
+
+Calculator App
+• Built calculator using HTML, CSS, and JavaScript
+• First project to practice DOM manipulation
+
+ONLINE CERTIFICATIONS
+• The Complete Web Developer Bootcamp (Udemy)
+• React - The Complete Guide (Udemy)
+
+ADDITIONAL SKILLS
+• Strong problem-solving abilities
+• Fast learner and self-motivated
+• Good communication and teamwork skills

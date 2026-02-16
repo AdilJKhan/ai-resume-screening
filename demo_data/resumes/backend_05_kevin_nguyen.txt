@@ -1,0 +1,66 @@
+KEVIN NGUYEN
+Junior Python Developer
+kevin.nguyen@email.com | (555) 123-4567
+
+OBJECTIVE
+Recent computer science graduate seeking a backend developer position to apply my Python programming skills. Strong foundation in Python, databases, and API development through coursework and personal projects.
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Illinois at Urbana-Champaign | May 2024
+GPA: 3.5/4.0
+
+Relevant Coursework:
+• Database Systems
+• Web Development
+• Software Engineering
+• Data Structures and Algorithms
+• Operating Systems
+
+TECHNICAL SKILLS
+• Programming: Python, SQL, Java (academic)
+• Frameworks: Flask, FastAPI (learning), Django (basic knowledge)
+• Databases: PostgreSQL, MySQL, SQLite
+• Tools: Git, GitHub, VS Code, Postman
+• Concepts: REST APIs, OOP, database design
+• Learning: Docker, AWS basics, unit testing
+
+INTERNSHIP EXPERIENCE
+
+Software Development Intern | Local Tech Company | Summer 2023
+• Developed Python scripts for data processing and automation
+• Assisted in building REST API endpoints using Flask
+• Wrote SQL queries to retrieve data from PostgreSQL database
+• Participated in code reviews and daily standup meetings
+• Fixed bugs in existing Python codebase
+• Learned about API authentication and security basics
+
+ACADEMIC PROJECTS
+
+Library Management System (Python, Flask, PostgreSQL)
+• Built RESTful API for managing books, users, and borrowing records
+• Implemented authentication using session-based login
+• Created PostgreSQL database with normalized schema
+• Wrote basic unit tests for API endpoints
+
+Student Grade Portal (Python, Django, SQLite)
+• Developed web application for viewing student grades
+• Used Django ORM for database operations
+• Implemented user authentication and authorization
+
+Weather API Integration (Python, Flask)
+• Created API that aggregates data from multiple weather services
+• Learned about consuming third-party APIs
+• Implemented basic caching to reduce external API calls
+
+CERTIFICATIONS & LEARNING
+• Python for Everybody Specialization (Coursera) - Completed
+• Currently learning Docker through online tutorials
+• Working through AWS Cloud Practitioner study guide
+
+ADDITIONAL INFORMATION
+• Active member of university Coding Club
+• Participated in 2 hackathons (2023, 2024)
+• Strong problem-solving and debugging skills
+• Eager to learn and grow as a backend developer
+• Comfortable working in Linux environment

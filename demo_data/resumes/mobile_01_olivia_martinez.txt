@@ -1,0 +1,61 @@
+OLIVIA MARTINEZ
+Mobile Application Developer
+olivia.martinez@email.com | (555) 123-4567
+
+PROFESSIONAL SUMMARY
+Mobile Application Developer with 3+ years of experience building native iOS and Android applications. Skilled in Swift, Kotlin, and mobile app development best practices. Passionate about creating intuitive mobile user experiences.
+
+TECHNICAL SKILLS
+• Mobile: iOS (Swift, SwiftUI, UIKit), Android (Kotlin, Java)
+• Frameworks: React Native (basic), Flutter (learning)
+• Backend Integration: REST APIs, Firebase, Core Data
+• Tools: Xcode, Android Studio, Git, Postman
+• Design: Mobile UI/UX, Figma, Sketch
+• Testing: XCTest, JUnit, Espresso
+• Other: Push Notifications, In-App Purchases, Maps Integration
+
+PROFESSIONAL EXPERIENCE
+
+Senior Mobile Developer | AppDev Studio | 2021 - Present
+• Develop and maintain native iOS applications using Swift and SwiftUI
+• Build Android applications using Kotlin and Jetpack Compose
+• Integrate mobile apps with RESTful APIs and Firebase
+• Implement push notifications and in-app messaging
+• Optimize app performance and reduce crash rates
+• Work with designers to implement pixel-perfect mobile interfaces
+• Publish apps to App Store and Google Play Store
+• Mentor junior mobile developers
+
+Mobile Developer | StartupApps | 2020 - 2021
+• Built iOS and Android applications for startup projects
+• Integrated third-party SDKs and APIs
+• Implemented user authentication and data persistence
+• Worked in agile environment with rapid iteration
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of California, San Diego | 2019
+
+PROJECTS
+Fitness Tracking App (iOS, SwiftUI, HealthKit)
+• Built native iOS app with health data integration
+• 10,000+ downloads on App Store
+
+Food Delivery App (Android, Kotlin, Google Maps API)
+• Created food ordering application with real-time tracking
+• Integrated payment processing
+
+Social Media App (React Native, Firebase)
+• Cross-platform social networking application
+• Real-time chat and photo sharing features
+
+CERTIFICATIONS
+• iOS App Development with Swift - Apple
+• Associate Android Developer - Google
+
+SKILLS SUMMARY
+• Strong mobile development expertise (iOS/Android)
+• Limited web development experience
+• No experience with React.js, Django, or backend frameworks
+• No DevOps, cloud infrastructure, or containerization experience
+• Mobile-first developer, not web-focused

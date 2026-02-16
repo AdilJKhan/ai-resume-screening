@@ -1,0 +1,36 @@
+JAMES WILSON
+Backend Developer
+james.wilson@email.com | (555) 456-7890
+
+PROFESSIONAL SUMMARY
+Backend Developer with 3 years of experience in server-side development, database design, and API development. Specialized in Python and Java backend technologies.
+
+TECHNICAL SKILLS
+• Languages: Python, Java, SQL
+• Frameworks: Django, Spring Boot, Flask
+• Databases: PostgreSQL, MySQL, MongoDB
+• Tools: Docker, Git, Postman
+• Cloud: AWS (EC2, S3, RDS)
+• Some knowledge of HTML and basic CSS
+
+EXPERIENCE
+
+Backend Developer | DataCorp | 2021 - Present
+• Design and develop RESTful APIs using Django
+• Optimize database queries in PostgreSQL
+• Write Python scripts for data processing
+• Deploy applications using Docker
+• Collaborate with frontend team (limited frontend exposure)
+
+Junior Developer | Tech Solutions | 2020 - 2021
+• Developed backend services using Flask
+• Created database schemas and migrations
+• Wrote unit tests for API endpoints
+• Basic HTML/CSS modifications when needed
+
+EDUCATION
+B.S. in Computer Science | Arizona State University | 2020
+
+PROJECTS
+Task Management API - Built REST API with Django and PostgreSQL
+Authentication Service - Implemented JWT-based auth system in Python

@@ -1,0 +1,21 @@
+Frontend Engineer (React)
+
+We are seeking a skilled Frontend Engineer to build responsive and interactive user interfaces.
+
+Responsibilities:
+Develop user interfaces using React.js.
+Build reusable UI components.
+Integrate frontend applications with REST APIs.
+Optimize performance and ensure cross-browser compatibility.
+Collaborate with backend engineers and designers.
+
+Requirements:
+3+ years of frontend development experience.
+Strong proficiency in JavaScript.
+Experience with React.js.
+Knowledge of HTML5, CSS3.
+Understanding of REST APIs.
+
+Nice to Have:
+Experience with TypeScript.
+Familiarity with modern frontend tooling (Webpack, Vite).

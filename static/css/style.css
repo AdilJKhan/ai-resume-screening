@@ -1,0 +1,143 @@
+body {
+  background: linear-gradient(135deg, #eef2f7, #e6ecf5);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #343a40;
+}
+
+.container {
+  margin-top: 60px;
+  max-width: 900px;
+}
+
+/* ===== Card ===== */
+.card {
+  border: none;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #0062e6, #33aeff);
+  color: #fff;
+  padding: 18px 24px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+/* ===== Form ===== */
+.form-group {
+  margin-bottom: 1.8rem;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-group p {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+
+/* Textarea */
+textarea.form-control {
+  min-height: 140px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  resize: vertical;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+textarea.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.2);
+}
+
+/* ===== File Input ===== */
+input[type="file"].form-control {
+  min-height: 56px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px dashed #b6c2d9;
+  background-color: #f3f7ff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+input[type="file"].form-control:hover {
+  border-color: #007bff;
+  background-color: #e9f1ff;
+}
+
+input[type="file"]::file-selector-button {
+  background: linear-gradient(135deg, #0062e6, #33aeff);
+  border: none;
+  border-radius: 999px;
+  padding: 10px 22px;
+  margin-right: 14px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.35);
+}
+
+input[type="file"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+}
+
+/* ===== Button ===== */
+.btn-primary {
+  background: linear-gradient(135deg, #0062e6, #33aeff);
+  border: none;
+  border-radius: 30px;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.35);
+  opacity: 0.95;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.35);
+}

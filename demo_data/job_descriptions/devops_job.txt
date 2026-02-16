@@ -1,0 +1,22 @@
+DevOps Engineer
+
+We are looking for a DevOps Engineer to manage infrastructure, automate deployments, and ensure system reliability.
+
+Responsibilities:
+Design and manage CI/CD pipelines.
+Deploy and maintain applications using Docker and Kubernetes.
+Manage cloud infrastructure (AWS, Azure, or GCP).
+Monitor system performance and reliability.
+Implement Infrastructure as Code (Terraform).
+Improve system scalability and fault tolerance.
+
+Requirements:
+3+ years of DevOps or SRE experience.
+Strong knowledge of Docker and Kubernetes.
+Experience with CI/CD tools (Jenkins, GitHub Actions).
+Experience with cloud platforms (AWS preferred).
+Familiarity with Linux systems and shell scripting.
+
+Nice to Have:
+Monitoring tools (Prometheus, Grafana).
+Experience in high-availability systems.

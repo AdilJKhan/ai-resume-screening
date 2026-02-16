@@ -1,0 +1,53 @@
+STEVEN HARRIS
+Network Engineer
+steven.harris@email.com | (555) 890-1234
+
+PROFESSIONAL SUMMARY
+Network Engineer with 4 years of experience in network design, configuration, and troubleshooting. Expertise in Cisco technologies, network security, and routing protocols. Some exposure to cloud networking.
+
+TECHNICAL SKILLS
+Networking: Cisco Routers & Switches, VLANs, OSPF, BGP, TCP/IP
+Network Security: Firewalls, VPN, IDS/IPS, Network Access Control
+Hardware: Cisco Catalyst, Cisco ASA, Juniper devices
+Monitoring: Wireshark, SolarWinds, PRTG
+Protocols: DNS, DHCP, SNMP, HTTP/HTTPS
+Cloud: Basic AWS VPC and networking knowledge
+Scripting: Basic Python for network automation (learning)
+Operating Systems: Windows Server, basic Linux
+
+PROFESSIONAL EXPERIENCE
+
+Network Engineer | Enterprise Networks Inc. | 2020 - Present
+• Design and configure enterprise network infrastructure
+• Manage Cisco routers, switches, and firewalls
+• Troubleshoot network connectivity and performance issues
+• Implement network security policies and VPN solutions
+• Monitor network traffic using SolarWinds and Wireshark
+• Configure VLANs, routing protocols (OSPF, BGP)
+• Minimal exposure to AWS VPC and cloud networking
+• Learning Python for network automation scripts
+
+Junior Network Engineer | ITServices Corp | 2019 - 2020
+• Installed and configured network equipment
+• Assisted with network troubleshooting
+• Maintained network documentation
+• Learned network protocols and Cisco technologies
+
+EDUCATION
+Bachelor of Science in Network Engineering
+Arizona State University | 2019
+
+CERTIFICATIONS
+• Cisco Certified Network Professional (CCNP)
+• Cisco Certified Network Associate (CCNA)
+• CompTIA Network+
+
+PROJECTS
+Campus Network Design - Designed multi-site network with redundancy
+VPN Implementation - Configured site-to-site VPN for remote offices
+
+NOTES
+• Primary focus on traditional networking, not DevOps
+• Limited experience with containers, CI/CD, or Kubernetes
+• No production experience with Docker or cloud infrastructure management
+• Network-focused rather than application deployment focused

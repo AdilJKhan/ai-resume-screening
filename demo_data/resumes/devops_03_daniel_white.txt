@@ -1,0 +1,57 @@
+DANIEL WHITE
+Cloud DevOps Engineer
+daniel.white@email.com | (555) 567-8901
+
+PROFESSIONAL SUMMARY
+Cloud DevOps Engineer with 3 years of experience primarily in Azure cloud infrastructure and DevOps practices. Skilled in containerization, CI/CD pipelines, and Infrastructure as Code. Some experience with AWS.
+
+TECHNICAL SKILLS
+Cloud: Microsoft Azure (VMs, Azure Kubernetes Service, Azure DevOps), AWS (basic)
+Containers: Docker, Kubernetes, Azure Container Instances
+CI/CD: Azure DevOps Pipelines, GitHub Actions, Jenkins (limited)
+IaC: Terraform, ARM Templates
+Monitoring: Azure Monitor, Application Insights, Prometheus
+Scripting: PowerShell, Bash, Python (basic)
+Version Control: Git, Azure Repos, GitHub
+OS: Windows Server, Linux (Ubuntu)
+Configuration: Ansible (learning)
+
+PROFESSIONAL EXPERIENCE
+
+DevOps Engineer | Enterprise Solutions Ltd. | 2021 - Present
+• Manage Azure cloud infrastructure for enterprise applications
+• Deploy applications using Docker and Azure Kubernetes Service (AKS)
+• Design CI/CD pipelines using Azure DevOps Pipelines
+• Implement Infrastructure as Code using Terraform and ARM templates
+• Monitor system performance using Azure Monitor and Application Insights
+• Manage Azure resources including VMs, Storage, and networking
+• Work with Kubernetes for container orchestration
+• Write PowerShell and Bash scripts for automation
+• Currently learning AWS to expand cloud platform knowledge
+
+Junior Cloud Engineer | CloudTech | 2020 - 2021
+• Assisted in managing Azure infrastructure
+• Deployed Docker containers to Azure
+• Created basic CI/CD pipelines in Azure DevOps
+• Learned Kubernetes and container technologies
+• Monitored applications and responded to alerts
+
+EDUCATION
+Bachelor of Computer Science | University of Michigan | 2020
+
+CERTIFICATIONS
+• Microsoft Certified: Azure Administrator Associate (2022)
+• Microsoft Certified: DevOps Engineer Expert (2023)
+• Docker Certified Associate (2021)
+• Currently studying for AWS Solutions Architect
+
+PROJECTS
+E-commerce Platform (Azure, Kubernetes, Terraform)
+• Deployed containerized application on AKS
+• Implemented auto-scaling and load balancing
+
+CI/CD Pipeline (Azure DevOps, Docker)
+• Created automated deployment pipeline
+• Integrated testing and security scanning
+
+NOTE: Primary experience with Azure ecosystem, actively transitioning to multi-cloud including AWS
