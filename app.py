@@ -5,36 +5,29 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-def extract_text_from_pdf(file_obj):
+def extract_text(file_path):
+    if file_path.endswith(".pdf"):
+        return extract_text_from_pdf(file_path)
+    elif file_path.endswith(".docx"):
+        return extract_text_from_docx(file_path)
+    elif file_path.endswith(".txt"):
+        return extract_text_from_txt(file_path)
+    return ""
+
+def extract_text_from_pdf(file_path):
     text = ""
-    reader = PyPDF2.PdfReader(file_obj)
-    for page in reader.pages:
-        extracted = page.extract_text()
-        if extracted:
-            text += extracted
+    with open(file_path, "rb") as f:
+        reader = PyPDF2.PdfReader(f)
+        for page in reader.pages:
+            text += page.extract_text() or ""
     return text
 
+def extract_text_from_docx(file_path):
+    return docx2txt.process(file_path)
 
-def extract_text_from_docx(file_obj):
-    return docx2txt.process(file_obj.name)
-
-
-def extract_text_from_txt(file_obj):
-    with open(file_obj.name, "r", encoding="utf-8") as f:
+def extract_text_from_txt(file_path):
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
         return f.read()
-
-
-def extract_text(file_obj):
-    filename = file_obj.name.lower()
-
-    if filename.endswith(".pdf"):
-        return extract_text_from_pdf(file_obj.name)
-    elif filename.endswith(".docx"):
-        return extract_text_from_docx(file_obj.name)
-    elif filename.endswith(".txt"):
-        return extract_text_from_txt(file_obj)
-    else:
-        return ""
 
 
 def match_resumes(job_description, resume_files):
@@ -68,7 +61,7 @@ interface = gr.Interface(
     fn=match_resumes,
     inputs=[
         gr.Textbox(label="Job Description"),
-        gr.File(file_count="multiple", label="Upload Resumes"),
+        gr.File(file_count="multiple",type="filepath" ,label="Upload Resumes"),
     ],
     outputs=gr.Textbox(label="Top Matching Resumes"),
     title="AI Resume Screening System (Demo Version)",
