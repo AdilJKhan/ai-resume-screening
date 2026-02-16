@@ -20,17 +20,21 @@ def extract_text_from_docx(file_obj):
 
 
 def extract_text_from_txt(file_obj):
-    return file_obj.read().decode("utf-8")
+    with open(file_obj.name, "r", encoding="utf-8") as f:
+        return f.read()
 
 
 def extract_text(file_obj):
-    if file_obj.name.endswith(".pdf"):
-        return extract_text_from_pdf(file_obj)
-    elif file_obj.name.endswith(".docx"):
-        return extract_text_from_docx(file_obj)
-    elif file_obj.name.endswith(".txt"):
+    filename = file_obj.name.lower()
+
+    if filename.endswith(".pdf"):
+        return extract_text_from_pdf(file_obj.name)
+    elif filename.endswith(".docx"):
+        return extract_text_from_docx(file_obj.name)
+    elif filename.endswith(".txt"):
         return extract_text_from_txt(file_obj)
-    return ""
+    else:
+        return ""
 
 
 def match_resumes(job_description, resume_files):
